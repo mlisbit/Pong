@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="utf-8">
+		<title>Ultimate tic tac toe</title>
+	</head>
+	<body>
+		<h1>{{ title }}</h1>
+		<canvas tabindex="1" width="640" height="480"></canvas>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript">
+			var socket = io.connect();
+			console.log('HI');
+		</script>
+
+		<script src="/reload/reload.js"></script>
+		<script src="game.js"></script>
+		<script src="entity.js"></script>
+	</body>
+</html>
